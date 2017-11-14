@@ -1,0 +1,45 @@
+[
+    {
+        "name": "id",
+        "dbType": "increments",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": true,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "name": "ten",
+        "dbType": "text",
+        "htmlType": "text",
+        "validations": "required,max:255"
+    },
+    {
+        "name": "loai_danhhieu",
+        "dbType": "text",
+        "htmlType": "text"
+    },
+    {
+        "name": "sotien",
+        "dbType": "double",
+        "htmlType": "number"
+    },
+    {
+        "name": "nam",
+        "dbType": "integer",
+        "htmlType": "number"
+    },
+    {
+        "name": "updated_at",
+        "dbType": "timestamp",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    }
+]

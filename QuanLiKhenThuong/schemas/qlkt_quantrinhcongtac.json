@@ -1,0 +1,63 @@
+[
+    {
+        "name": "id",
+        "dbType": "increments",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": true,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "name": "nhanvien_id",
+        "dbType": "integer:unsigned:foreign,nhan_viens,id",
+        "htmlType": "text",
+        "relation": "mt1,NhanVien,nhanvien_id,id"
+    },
+    {
+        "name": "tu_ngay",
+        "dbType": "timestamp",
+        "htmlType": "datetime"
+    },
+    {
+        "name": "den_ngay",
+        "dbType": "timestamp",
+        "htmlType": "datetime"
+    },
+    {
+        "name": "congviec",
+        "dbType": "text",
+        "htmlType": "text",
+        "validations": "max:255"
+    },
+    {
+        "name": "ghichu",
+        "dbType": "text",
+        "htmlType": "text",
+        "validations": "max:500"
+    },
+    {
+        "name": "created_at",
+        "dbType": "timestamp",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "name": "updated_at",
+        "dbType": "timestamp",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    }
+]

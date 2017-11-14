@@ -1,0 +1,80 @@
+[
+    {
+        "name": "id",
+        "dbType": "increments",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": true,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "name": "ten",
+        "dbType": "text",
+        "htmlType": "text",
+        "validations": "required,max:255",
+        "slug": true
+    },
+    {
+        "name": "thoihan_thamgia",
+        "dbType": "timestamp",
+        "htmlType": "datetime"
+    },
+    {
+        "name": "loaihinh",
+        "dbType": "integer",
+        "htmlType": "number"
+    },
+    {
+        "name": "bantochuc",
+        "dbType": "integer",
+        "htmlType": "number"
+    },
+    {
+        "name": "batbuoc",
+        "dbType": "integer",
+        "htmlType": "number"
+    },
+    {
+        "name": "giaithuong",
+        "dbType": "text",
+        "htmlType": "text",
+        "validations": "max:255"
+    },
+    {
+        "name": "mota",
+        "dbType": "text",
+        "htmlType": "text",
+        "validations": "max:255"
+    },
+    {
+        "name": "created_at",
+        "dbType": "timestamp",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "name": "updated_at",
+        "dbType": "timestamp",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "name": "slug",
+        "dbType": "string",
+        "htmlType": "text",
+        "validations": "required"
+    }
+]

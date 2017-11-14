@@ -1,0 +1,112 @@
+[
+    {
+        "name": "id",
+        "dbType": "increments",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": true,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "name": "user_id",
+        "dbType": "integer:unsigned:foreign,users,id",
+        "htmlType": "text",
+        "relation": "mt1,User,user_id,id"
+    },
+    {
+        "name": "hoten",
+        "dbType": "text",
+        "htmlType": "text",
+        "validations": "required,max:255",
+        "slug": true
+    },
+    {
+        "name": "ngaysinh",
+        "dbType": "timestamp",
+        "htmlType": "datetime"
+    },
+    {
+        "name": "tinh_id",
+        "dbType": "integer:unsigned:foreign,tinhs,id",
+        "htmlType": "text",
+        "relation": "mt1,Tinh,tinh_id,id"
+    },
+    {
+        "name": "huyen_id",
+        "dbType": "integer:unsigned:foreign,huyens,id",
+        "htmlType": "text",
+        "relation": "mt1,Huyen,huyen_id,id"
+    },
+    {
+        "name": "xa_id",
+        "dbType": "integer:unsigned:foreign,xas,id",
+        "htmlType": "text",
+        "relation": "mt1,Xa,xa_id,id"
+    },
+    {
+        "name": "gioitinh",
+        "dbType": "integer",
+        "htmlType": "number"
+    },
+    {
+        "name": "email",
+        "dbType": "text",
+        "htmlType": "text",
+        "validations": "max:255"
+    },
+    {
+        "name": "dantoc",
+        "dbType": "text",
+        "htmlType": "text",
+        "validations": "max:255"
+    },
+    {
+        "name": "tongiao",
+        "dbType": "text",
+        "htmlType": "text",
+        "validations": "max:255"
+    },
+    {
+        "name": "so_cmnd",
+        "dbType": "text",
+        "htmlType": "text",
+        "validations": "max:20"
+    },
+
+    {
+        "name": "ngaycap",
+        "dbType": "timestamp",
+        "htmlType": "datetime"
+    },
+    {
+        "name": "created_at",
+        "dbType": "timestamp",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "name": "updated_at",
+        "dbType": "timestamp",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "name": "slug",
+        "dbType": "string",
+        "htmlType": "text",
+        "validations": "required"
+    }
+]
